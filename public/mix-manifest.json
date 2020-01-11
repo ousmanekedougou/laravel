@@ -1,0 +1,9 @@
+{
+    "/js/bootstrap.min.js": "/js/bootstrap.min.js",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/style.css": "/css/style.css",
+    "/node_modules/tinymce/jquery.tinymce.js": "/node_modules/tinymce/jquery.tinymce.js",
+    "/node_modules/tinymce/jquery.tinymce.min.js": "/node_modules/tinymce/jquery.tinymce.min.js",
+    "/node_modules/tinymce/tinymce.js": "/node_modules/tinymce/tinymce.js",
+    "/node_modules/tinymce/tinymce.min.js": "/node_modules/tinymce/tinymce.min.js"
+}

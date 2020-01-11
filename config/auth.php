@@ -40,6 +40,23 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
+        'medecin' => [
+            'driver' => 'session',
+            'provider' => 'medecins',
+           
+        ],
+
+        'admin' => [
+            'driver' => 'session',
+            'provider' => 'admins',
+           
+        ],
+
+        'specialite' => [
+            'driver' => 'session',
+            'provider' => 'specialites',
+           
+        ],
 
         'api' => [
             'driver' => 'token',
@@ -71,6 +88,21 @@ return [
             'model' => App\User::class,
         ],
 
+        'medecins' => [
+            'driver' => 'eloquent',
+            'model' => App\Medecin::class,
+        ],
+
+        'admins' => [
+            'driver' => 'eloquent',
+            'model' => App\Admin::class,
+        ],
+
+        'specialites' => [
+            'driver' => 'eloquent',
+            'model' => App\Specialites::class,
+        ],
+
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
@@ -96,8 +128,22 @@ return [
         'users' => [
             'provider' => 'users',
             'table' => 'password_resets',
-            'expire' => 60,
-            'throttle' => 60,
+            'expire' => 120,
+            'throttle' => 120,
+        ],
+
+        'admins' => [
+            'provider' => 'admins',
+            'table' => 'password_resets',
+            'expire' => 120,
+            'throttle' => 120,
+        ],
+
+        'medecins' => [
+            'provider' => 'medecins',
+            'table' => 'password_resets',
+            'expire' => 120,
+            'throttle' => 120,
         ],
     ],
 
