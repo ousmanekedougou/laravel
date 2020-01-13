@@ -9,7 +9,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>{{ config('app.name', 'Dashbord-admin') }}</title>
+    <title>MaSante</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -21,7 +21,8 @@
         <link rel="stylesheet" href="{{asset('fonts')}}"/>
         <link rel="stylesheet" href="{{asset('pdf')}}"/>
         <link rel="stylesheet" href="{{asset('img')}}"/>
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="{{asset('img2')}}"/>
+        <link rel="shortcut icon" type="image/x-icon" href="img2/favicon.png">
     <!-- Google Fonts
 		============================================ -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
@@ -86,7 +87,7 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-            <a href="index.html"><img class="main-logo" src="img2/logo3.png" alt="" /></a>
+            <a href=""><img class="main-logo" src="img2/logo3.png" alt="" /></a>
                 <strong><img src="img2/logo3.png" alt="" /></strong>
             </div>
 			<div class="nalika-profile">
@@ -99,9 +100,9 @@
 				</div>
 				<div class="profile-social-dtl">
 					<ul class="dtl-social">
-						<li><a href="#"><i class="icon nalika-facebook"></i></a></li>
+						<!-- <li><a href="#"><i class="icon nalika-facebook"></i></a></li>
 						<li><a href="#"><i class="icon nalika-twitter"></i></a></li>
-                        <li><a href="#"><i class="icon nalika-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon nalika-linkedin"></i></a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -126,13 +127,13 @@
                             </ul>
                         </li>
                         </li>
-                        <li id="removable">
+                        <!-- <li id="removable">
                             <a class="has-arrow" href="#" aria-expanded="false"><i class="icon nalika-new-file icon-wrap"></i> <span class="mini-click-non">Pages</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="Product List" href="#"><span class="mini-sub-pro">Afficher Par list</span></a></li>
                                 <li><a title="Product Edit" href="#"><span class="mini-sub-pro">Afficher Par Carre</span></a></li>
                            </ul>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
@@ -167,12 +168,12 @@
                                     </div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
                                         <div class="header-top-menu tabl-d-n hd-search-rp">
-                                            <div class="breadcome-heading">
+                                            <!-- <div class="breadcome-heading">
 												<form role="search" class="">
 													<input type="text" placeholder="Search..." class="form-control">
 													<a href=""><i class="fa fa-search"></i></a>
 												</form>
-											</div>
+											</div> -->
                                         </div>
                                     </div>
                                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -292,12 +293,12 @@
 
                                                     <div role="menu" class="admintab-wrap menu-setting-wrap menu-setting-wrap-bg dropdown-menu animated zoomIn">
                                                         <ul class="nav nav-tabs custon-set-tab">
-                                                            <li class="active"><a data-toggle="tab" href="#Notes">Specialites</a>
+                                                            <li class="active"><a data-toggle="tab" href="#Notes">Commentaires</a>
                                                             </li>
-                                                            <li><a data-toggle="tab" href="#Projects">Rendez-Vous</a>
+                                                            <!-- <li><a data-toggle="tab" href="#Projects">Rendez-Vous</a>
                                                             </li>
                                                             <li><a data-toggle="tab" href="#Settings">Settings</a>
-                                                            </li>
+                                                            </li> -->
                                                         </ul>
 
                                                         <div class="tab-content custom-bdr-nt">
@@ -429,7 +430,7 @@
 												<i class="icon nalika-home"></i>
 											</div>
 											<div class="breadcomb-ctn">
-												<h2>Tableau de bord</h2>
+												<h2>Bureau</h2>
 												<!-- <p>Bienvenue <span class="bread-ntd">sue votre lieu de travail</span></p> -->
 											</div>
 										</div>
@@ -643,7 +644,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-copy-right">
-                            <p>Copyright © 2020 <a style='text-decoration:underline;' href="https://colorlib.com/wp/templates/">GalimaTech</a> Disigned by <span class='text-danger'>Ousmane Diallo</span></p>
+                        <p>Copyright © 2020 | Disign By Ousmane Diallo KEDOUGOU</p>
                         </div>
                     </div>
                 </div>

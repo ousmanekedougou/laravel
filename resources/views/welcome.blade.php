@@ -162,9 +162,9 @@ footer .images-gellary ul li:nth-child(3n) {
                                 <li class="nav-item">
                                     <a class="nav-link" href="#comment">Contact</a>
                                 </li>
-                                <li class="d-none d-lg-block">
+                                <!-- <li class="d-none d-lg-block">
                                     <a class="btn_1" href="#">learn more</a>
-                                </li>
+                                </li> -->
                                 @endauth
                             </ul>
                             @endif
@@ -205,7 +205,7 @@ footer .images-gellary ul li:nth-child(3n) {
     <!-- fin du carousel-->
 
     <!-- feature_part start-->
-    <section class="feature_part padding_top">
+    <section class="feature_part padding_top" style="margin-bottom:-60px;">
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-md-4">
@@ -336,6 +336,7 @@ footer .images-gellary ul li:nth-child(3n) {
                             @endif
                             <div class="form-row">
                                 <p>Merci de nous faire part de vos questions ou suggestions </p>
+                                <p>Si vous etes un medecins envoyer un message pour vous inscrire</p>
                                 <div class="form-group col-md-6">
                                     <input type="text" name="name" class="form-control" id="inputEmail4" placeholder="Nom et Prenom">
                                 </div>
@@ -423,15 +424,14 @@ footer .images-gellary ul li:nth-child(3n) {
       </div>
       <div class="col-sm-3">
       <div class="footer-widget">
-        <h3>Heure d'ouverture</h3>
+        <h3>Urgences </h3>
         <div class="footer-widget-content">
         <div class="open-time ">
           <ul class="opening-time">
-            <li><span><i class="fa fa-times"></i></span><p class="clock-time"><strong>monday :</strong> closed</p>
+            <li><span><i class="fa fa-times"></i></span><p class="clock-time"><strong>Ambulance  :</strong> 33-987-67-45</p>
              </li>
-            <li><span><i class="fa fa-check"></i></span><p><strong>tue-fri :</strong> 8am - 12am</p></li>
-            <li><span><i class="fa fa-check"></i></span><p><strong>sat-sun :</strong> 7am - 1am</p></li>
-            <li><span><i class="fa fa-check"></i></span><p><strong>holydays :</strong> 12pm-12am</p></li>
+            <li><span><i class="fa fa-check"></i></span><p><strong>Medecin Urgentiste :</strong>33-865-76-45</p></li>
+            <li><span><i class="fa fa-check"></i></span><p><strong>Sage Femme :</strong> 33-987-56-46</p></li>
           </ul>
            </div>
         </div>

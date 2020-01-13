@@ -247,7 +247,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Multipliez vos chances de guerrire</h1>
+            <h1 class="h3 mb-0 text-gray-800">Bureau</h1>
             <div class="contente ">
             @if(session('success'))
               <p class="alert alert-success">{{session('success')}}</p>
@@ -297,13 +297,13 @@
                 <div class="card-body">
                   <div class="row no-gutters align-items-center">
                   <div class="col-auto">
-                    <img src="{{asset('storage/'.$medecin->images)}}" alt="" class="img-rounded img-responsive " style="width:50px;height:50px;margin-top:-40px;margin-left:-15px;">
+                    <img src="{{asset('storage/'.$medecin->images)}}" alt="" class="img-rounded img-responsive " style="width:50px;height:50px;margin-top:-30px;margin-left:-15px;">
                     </div>
                     <div class="col mr-2" style="margin-bottom:-25px;">
                       <div class="text-xs font-weight-bold text-primary text-uppercase mb-1" style="margin-left:15px;margin-top:-20px;">{{$medecin->prenom}} {{$medecin->name}}</div>
                       <div class="" style="margin-left:15px;font-size:13px;text-align:left;">Specialiste en {{$medecin->specialite->name}} et travail a {{$medecin->adresse}}</div>
                       <!-- debut du modal -->
-                      <a href="{{route('preparer',$medecin->id)}}">Faite votre demande</a>
+                      <a href="{{route('preparer',$medecin->id)}}" style="margin-left:15px;">Demander</a>
                    
                             <!-- fin du modal -->
                     </div>

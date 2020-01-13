@@ -87,7 +87,7 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-            <a href="index.html"><img class="main-logo" src="img2/logo3.png" alt="" /></a>
+            <a href=""><img class="main-logo" src="img2/logo3.png" alt="" /></a>
                 <strong><img src="img2/logo3.png" alt="" /></strong>
             </div>
 			<div class="nalika-profile">
@@ -100,9 +100,9 @@
 				</div>
 				<div class="profile-social-dtl">
 					<ul class="dtl-social">
-						<li><a href="#"><i class="icon nalika-facebook"></i></a></li>
+						<!-- <li><a href="#"><i class="icon nalika-facebook"></i></a></li>
 						<li><a href="#"><i class="icon nalika-twitter"></i></a></li>
-                        <li><a href="#"><i class="icon nalika-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon nalika-linkedin"></i></a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -121,13 +121,13 @@
                         </li>
                      
                         </li>
-                        <li id="removable">
+                        <!-- <li id="removable">
                             <a class="has-arrow" href="#" aria-expanded="false"><i class="icon nalika-new-file icon-wrap"></i> <span class="mini-click-non">Pages</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="Product List" href="#"><span class="mini-sub-pro">Afficher Par list</span></a></li>
                                 <li><a title="Product Edit" href="#"><span class="mini-sub-pro">Afficher Par Carre</span></a></li>
                            </ul>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
@@ -162,12 +162,12 @@
                                     </div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
                                         <div class="header-top-menu tabl-d-n hd-search-rp">
-                                            <div class="breadcome-heading">
+                                            <!-- <div class="breadcome-heading">
 												<form role="search" class="">
 													<input type="text" placeholder="Search..." class="form-control text-center " style="color:azure;">
 													<a href=""><i class="fa fa-search"></i></a>
 												</form>
-											</div>
+											</div> -->
                                         </div>
                                     </div>
                                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -373,8 +373,8 @@
 												<i class="icon nalika-home"></i>
 											</div>
 											<div class="breadcomb-ctn">
-												<h2>Tableau de bord</h2>
-												<p>Bienvenue <span class="bread-ntd">sue votre lieu de travail</span></p>
+												<h2>Bureau</h2>
+												<!-- <p>Bienvenue <span class="bread-ntd">sue votre lieu de travail</span></p> -->
 											</div>
 										</div>
                                     </div>
@@ -460,9 +460,9 @@
                                         <!-- fin du modal fixer -->
                                         <!-- <button type="submit"  name="" data-toggle="tooltip" title="Transferer" class="pd-setting-ed"><i class="fa fa-send-o " aria-hidden="true"></i></button> -->
                                                         <!-- debut du modal transfere -->
-                                            <button  type="button" class="btn btn-primary btn-xs" title="Transferer" data-toggle="modal" data-target="#exampleModal2">
+                                            <!-- <button  type="button" class="btn btn-primary btn-xs" title="Transferer" data-toggle="modal" data-target="#exampleModal2">
                                             <i class="fa fa-send-o " aria-hidden="true"></i>
-                                            </button>
+                                            </button> -->
                                             <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
                                             <div class="modal-dialog" role="document">
                                                 <div class="modal-content">
@@ -527,7 +527,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-copy-right">
-                            <p>Copyright © 2018 <a href="https://colorlib.com/wp/templates/">Colorlib</a> All rights reserved.</p>
+                        <p>Copyright © 2020 | Disign By Ousmane Diallo KEDOUGOU.</p>
                         </div>
                     </div>
                 </div>

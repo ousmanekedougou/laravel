@@ -1,0 +1,11 @@
+postgres://hzpwocofogztuk:05a9a2f6160a88770c3571200af3915a26a0be01342645bacb513d744a82dea7@ec2-107-22-211-248.compute-1.amazonaws.com:5432/dfvrokeu451clj
+
+user = hzpwocofogztuk
+
+pass = 05a9a2f6160a88770c3571200af3915a26a0be01342645bacb513d744a82dea7
+
+host = ec2-107-22-211-248.compute-1.amazonaws.com
+
+port = 5432
+
+db = dfvrokeu451clj

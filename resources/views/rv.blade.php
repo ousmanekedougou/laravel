@@ -224,7 +224,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Demander un rendez-vous facilement</h1>
+            <h1 class="h3 mb-0 text-gray-800">Rendez-vous</h1>
             <div class="contente ">
             @if(session('success'))
               <p class="alert alert-success">{{session('success')}}  </p>
@@ -303,7 +303,7 @@
           <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Your Website 2019</span>
+          <span>Copyright &copy; 2020 | Design by Ousmane Diallo </span>
           </div>
         </div>
       </footer>

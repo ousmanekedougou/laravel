@@ -93,7 +93,7 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="index.html"><img class="main-logo" src="img2/logo3.png" alt="" /></a>
+                <a href=""><img class="main-logo" src="img2/logo3.png" alt="" /></a>
                 <strong><img src="img2/logo3.png" alt="" /></strong>
             </div>
 			<div class="nalika-profile">
@@ -104,9 +104,9 @@
 				</div>
 				<div class="profile-social-dtl">
 					<ul class="dtl-social">
-						<li><a href="#"><i class="icon nalika-facebook"></i></a></li>
+						<!-- <li><a href="#"><i class="icon nalika-facebook"></i></a></li>
 						<li><a href="#"><i class="icon nalika-twitter"></i></a></li>
-                        <li><a href="#"><i class="icon nalika-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon nalika-linkedin"></i></a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -125,16 +125,16 @@
 
                             </ul>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a class="has-arrow" href="mailbox.html" aria-expanded="false"><i class="icon nalika-mail icon-wrap"></i> <span class="mini-click-non">Mailbox</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="Inbox" href="mailbox.html"><span class="mini-sub-pro">Inbox</span></a></li>
                                 <li><a title="View Mail" href="mailbox-view.html"><span class="mini-sub-pro">View Mail</span></a></li>
                                 <li><a title="Compose Mail" href="mailbox-compose.html"><span class="mini-sub-pro">Compose Mail</span></a></li>
                             </ul>
+                        </li> -->
                         </li>
-                        </li>
-                        <li id="removable">
+                        <!-- <li id="removable">
                             <a class="has-arrow" href="#" aria-expanded="false"><i class="icon nalika-new-file icon-wrap"></i> <span class="mini-click-non">Pages</span></a>
                             <ul class="submenu-angle" aria-expanded="false">
                                 <li><a title="Login" href="login.html"><span class="mini-sub-pro">Login</span></a></li>
@@ -142,7 +142,7 @@
                                 <li><a title="Lock" href="lock.html"><span class="mini-sub-pro">Lock</span></a></li>
                                 <li><a title="Password Recovery" href="password-recovery.html"><span class="mini-sub-pro">Password Recovery</span></a></li>
                             </ul>
-                        </li>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
@@ -177,12 +177,12 @@
                                     </div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
                                         <div class="header-top-menu tabl-d-n hd-search-rp">
-                                            <div class="breadcome-heading">
+                                            <!-- <div class="breadcome-heading">
 												<form role="search" class="">
 													<input type="text" placeholder="Search..." class="form-control">
 													<a href=""><i class="fa fa-search"></i></a>
 												</form>
-											</div>
+											</div> -->
                                         </div>
                                     </div>
                                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -373,7 +373,7 @@
 												<i class="icon nalika-home"></i>
 											</div>
 											<div class="breadcomb-ctn">
-												<h2>Tableau de bord</h2>
+												<h2>Bureau</h2>
 											</div>
 										</div>
                                     </div>
@@ -546,7 +546,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer-copy-right">
-                            <p>Copyright © 2018 <a href="https://colorlib.com/wp/templates/">Colorlib</a> All rights reserved.</p>
+                        <p>Copyright © 2020 | Disign By Ousmane Diallo KEDOUGOU.</p>
                         </div>
                     </div>
                 </div>
